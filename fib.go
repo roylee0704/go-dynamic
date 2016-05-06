@@ -8,7 +8,7 @@ func main() {
 }
 
 // dp is a dynamic prog wrapper that uses memoization technique to improve
-// T(n) from exponential to polynomial
+// T(n) from exponential to linear
 type dp struct {
 	memo map[int]int
 }
